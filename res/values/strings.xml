@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CameraPuzzleActivity!</string>
+    <string name="app_name">CameraPuzzle</string>
+    <string name="instructions">Olá. &lt;br/&gt;O Camera Puzzle é um jogo baseado nos 15 Puzzles, onde você tem 15 peças para ajustar na ordem correta e 16 espaços. &lt;br/&gt;&lt;br/&gt;A diferença é que ao invés de uma imagem ou foto, você brinca com a camera do aparelho. &lt;br/&gt;&lt;br/&gt;O jogo possui dois modos:&lt;br/&gt;&lt;br/&gt;O modo SFS você joga com os quadros marcados com a numeração correspondente.&lt;br/&gt;&lt;br/&gt;No modo SFO, você joga sem numeração.&lt;br/&gt;&lt;br/&gt;Tente completar o game com menos jogadas e em menor tempo e poste seus resultados no Facebook.</string>
+    <string name="label_sfo">Modo SFO</string>
+    <string name="label_sfs">Modo SFS</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="ganhou_ovo">GANHOU UM OVO :D</string>
+    <string name="tempo_decorrido">Tempo Decorrido:</string>
+    <string name="num_jogadas">Número de Jogadas:</string>
+    <string name="post_facebook">Postar no Facebook</string>
+    <string name="convite_recordes">Registrar nos recordes?</string>
+    <string name="bt_registrar_recorde">Registrar</string>
+    <string name="bt_visualizar_recordes">Visualizar Recordes</string>
+
+</resources>

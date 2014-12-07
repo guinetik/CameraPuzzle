@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtIntro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions" />
+
+    <LinearLayout android:layout_centerInParent="true"
+        android:layout_width="wrap_content" android:orientation="horizontal"
+        android:layout_height="wrap_content" >
+        
+        <Button android:onClick="newGameSFS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sfs" />
+
+        <Button android:onClick="newGameSFO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sfo" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="visualizarRecordes"
+            android:text="@string/bt_visualizar_recordes" />
+        
+    </LinearLayout>
+
+</RelativeLayout>
